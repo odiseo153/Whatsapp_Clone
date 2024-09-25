@@ -1,0 +1,17 @@
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Whatsapp_Api.Infraestructure.deps.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Whatsapp_Api.Infraestructure.runtimeconfig.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Whatsapp_Api.Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Whatsapp_Api.Infraestructure.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Whatsapp_Api.Core.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Whatsapp_Api.Core.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.AssemblyInfo.cs
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp.C78A6EFE.Up2Date
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\refint\Whatsapp_Api.Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.genruntimeconfig.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\ref\Whatsapp_Api.Infraestructure.dll

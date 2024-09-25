@@ -1,0 +1,17 @@
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.csproj.AssemblyReference.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.AssemblyInfoInputs.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.AssemblyInfo.cs
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.csproj.CoreCompileInputs.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Application.deps.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Application.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Application.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Core.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Infraestructure.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\bin\Debug\net8.0\Whatsapp_Api.Core.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp.0350B3DF.Up2Date
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\refint\Whatsapp_Api.Application.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\ref\Whatsapp_Api.Application.dll

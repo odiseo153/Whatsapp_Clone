@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Whatsapp_Api.Presentation.WebApi.props" />
+</Project>

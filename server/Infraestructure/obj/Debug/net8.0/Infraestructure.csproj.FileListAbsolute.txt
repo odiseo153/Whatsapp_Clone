@@ -1,0 +1,17 @@
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Infraestructure.deps.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Infraestructure.runtimeconfig.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Infraestructure.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.AssemblyInfo.cs
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\refint\Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraestructure.genruntimeconfig.cache
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\ref\Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Core.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\bin\Debug\net8.0\Core.pdb
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Infraest.B0D41582.Up2Date

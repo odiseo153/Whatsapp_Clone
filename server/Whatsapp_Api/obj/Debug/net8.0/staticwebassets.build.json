@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EWEQXCenmKXArWGWOcYuLvvwyZogl8uRJ/LREOKPrVo=",
+  "Source": "Whatsapp_Api.Presentation.WebApi",
+  "BasePath": "_content/Whatsapp_Api.Presentation.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

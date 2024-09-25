@@ -1,0 +1,82 @@
+[
+  {
+    "Content": "Hey, how are you?",
+    "SendDate": "2024-09-24T14:25:00",
+    "Read": false,
+    "SenderId": "d58c0b89-a68e-49a0-a7e2-7ce42f374f29",
+    "ReceiverId": "841706ff-8bc9-4046-ac02-04b303bc1b4e",
+    "ConversationId": "a34f0e9b-5246-44a4-bf0a-b22e2d13b5b5"
+  },
+  {
+    "Content": "I'm good, thanks for asking!",
+    "SendDate": "2024-09-24T14:30:00",
+    "Read": true,
+    "SenderId": "841706ff-8bc9-4046-ac02-04b303bc1b4e",
+    "ReceiverId": "d58c0b89-a68e-49a0-a7e2-7ce42f374f29",
+    "ConversationId": "a34f0e9b-5246-44a4-bf0a-b22e2d13b5b5"
+  },
+  {
+    "Content": "Have you completed the project?",
+    "SendDate": "2024-09-24T15:00:00",
+    "Read": false,
+    "SenderId": "8010528c-dceb-4b89-b34e-eb3d03a4cde4",
+    "ReceiverId": "d58c0b89-a68e-49a0-a7e2-7ce42f374f29",
+    "ConversationId": "b1cf18c3-e705-46a0-a303-b3b3208232b4"
+  },
+  {
+    "Content": "Not yet, but I'm almost done.",
+    "SendDate": "2024-09-24T15:10:00",
+    "Read": true,
+    "SenderId": "d58c0b89-a68e-49a0-a7e2-7ce42f374f29",
+    "ReceiverId": "8010528c-dceb-4b89-b34e-eb3d03a4cde4",
+    "ConversationId": "b1cf18c3-e705-46a0-a303-b3b3208232b4"
+  },
+  {
+    "Content": "When do you want to meet?",
+    "SendDate": "2024-09-24T16:00:00",
+    "Read": false,
+    "SenderId": "ed7d47a7-9b93-4e32-82a5-77b4968a4f93",
+    "ReceiverId": "841706ff-8bc9-4046-ac02-04b303bc1b4e",
+    "ConversationId": "9c9a5a25-7759-45a7-b2cf-b92eb3c73de5"
+  },
+  {
+    "Content": "Tomorrow afternoon works for me.",
+    "SendDate": "2024-09-24T16:15:00",
+    "Read": true,
+    "SenderId": "841706ff-8bc9-4046-ac02-04b303bc1b4e",
+    "ReceiverId": "ed7d47a7-9b93-4e32-82a5-77b4968a4f93",
+    "ConversationId": "9c9a5a25-7759-45a7-b2cf-b92eb3c73de5"
+  },
+  {
+    "Content": "Can you send me the details?",
+    "SendDate": "2024-09-24T14:45:00",
+    "Read": false,
+    "SenderId": "986bfec4-46a1-45b4-970f-055b5beb40c6",
+    "ReceiverId": "8010528c-dceb-4b89-b34e-eb3d03a4cde4",
+    "ConversationId": "cbd0371e-9d12-48ef-a9cb-fb1495bb5025"
+  },
+  {
+    "Content": "Sure, I'll send them over.",
+    "SendDate": "2024-09-24T15:00:00",
+    "Read": true,
+    "SenderId": "8010528c-dceb-4b89-b34e-eb3d03a4cde4",
+    "ReceiverId": "986bfec4-46a1-45b4-970f-055b5beb40c6",
+    "ConversationId": "cbd0371e-9d12-48ef-a9cb-fb1495bb5025"
+  },
+  {
+    "Content": "Do you need help with the task?",
+    "SendDate": "2024-09-24T14:20:00",
+    "Read": false,
+    "SenderId": "042ad672-fb47-451c-9f11-170a9cf8d3b4",
+    "ReceiverId": "8010528c-dceb-4b89-b34e-eb3d03a4cde4",
+    "ConversationId": "1c4d785f-10f7-4982-a0c2-cc119d0eb5d2"
+  },
+  {
+    "Content": "Yes, that would be great!",
+    "SendDate": "2024-09-24T14:30:00",
+    "Read": true,
+    "SenderId": "8010528c-dceb-4b89-b34e-eb3d03a4cde4",
+    "ReceiverId": "042ad672-fb47-451c-9f11-170a9cf8d3b4",
+    "ConversationId": "1c4d785f-10f7-4982-a0c2-cc119d0eb5d2"
+  }
+]

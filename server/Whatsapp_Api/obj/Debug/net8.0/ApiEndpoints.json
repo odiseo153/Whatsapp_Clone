@@ -1,0 +1,166 @@
+[
+  {
+    "ContainingType": "Whatsapp_Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Application.Authentication.AuthCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.ConversationController",
+    "Method": "Get",
+    "RelativePath": "Conversation/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.GroupController",
+    "Method": "Create",
+    "RelativePath": "Gruop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Group",
+        "Type": "Whatsapp_Api.Application.Entities.Groups.Command.CreateGroupCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.GroupController",
+    "Method": "Get",
+    "RelativePath": "Gruop",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.MessageController",
+    "Method": "Create",
+    "RelativePath": "Message",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "Whatsapp_Api.Application.Entities.Messages.Command.CreateMessageCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.MessageController",
+    "Method": "Delete",
+    "RelativePath": "Message",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.MessageController",
+    "Method": "Get",
+    "RelativePath": "Message/{IdConversation}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdConversation",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Controllers.UsuarioController",
+    "Method": "Create",
+    "RelativePath": "Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Application.Entities.Usuarios.Command.CreateUsuarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Controllers.UsuarioController",
+    "Method": "Update",
+    "RelativePath": "Usuario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Whatsapp_Api.Application.Entities.Usuarios.Command.UpdateUsuarioCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Whatsapp_Api.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "Usuario",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

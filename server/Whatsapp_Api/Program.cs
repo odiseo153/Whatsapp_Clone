@@ -2,6 +2,7 @@ using Whatsapp_Api.Infraestructure.Context;
 using Whatsapp_Api;
 using Whatsapp_Api.Presentation.WebApi.Seed;
 using MediatR;
+using Whatsapp_Api.Infraestructure;
 
 internal class Program
 {
@@ -19,18 +20,18 @@ internal class Program
         using (var service = app.Services.CreateScope())
         {
             /*
-             */
             var servicio = service.ServiceProvider;
             var db = servicio.GetRequiredService<SocialMediaContext>();
             var mediator = servicio.GetRequiredService<IMediator>();
 
 
-           //  db.Database.EnsureDeleted();
-           //  db.Database.EnsureCreated();
+             db.Database.EnsureDeleted();
+             db.Database.EnsureCreated();
 
-           // db.Seed_UserAsync(mediator).GetAwaiter().GetResult();
+            db.Seed_UserAsync(mediator).GetAwaiter().GetResult();
             
-           // db.Seed_MessagesAsync(mediator).GetAwaiter().GetResult();
+            db.Seed_MessagesAsync(mediator).GetAwaiter().GetResult();
+             */
             //db.Seed_Conversation();
 
             // db.Seed_Pacientes();
@@ -41,8 +42,9 @@ internal class Program
 
 
         // Configure the HTTP request pipeline.
-        startup.Configure(app, app.Environment);
 
+        startup.Configure(app, app.Environment);
+        
         app.Run();
 
     }

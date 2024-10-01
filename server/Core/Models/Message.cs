@@ -8,6 +8,7 @@ public partial class Message : BaseEntity
 {
   
     public string? Content { get; set; }
+    public string? Image { get; set; }
 
     public DateTime SendDate { get; set; } = DateTime.Now;
 

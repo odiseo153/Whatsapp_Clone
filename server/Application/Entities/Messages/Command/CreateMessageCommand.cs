@@ -2,21 +2,22 @@
 using Whatsapp_Api.Infraestructure.Context;
 using Infraestructure.Repository;
 using MediatR;
-
-
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.SignalR;
+using Whatsapp_Api.Infraestructure;
 
 namespace Whatsapp_Api.Application.Entities.Messages.Command
 {
     public class CreateMessageCommand : IRequest<Response>
     {
         public string? Content { get; set; }
+        public string? Image { get; set; }
         public string? SenderId { get; set; }
         public string? ReceiverId { get; set; }
     }
 
 
-    public class CreateMessageHandler(GenericRepository<Message> repository,SocialMediaContext context) : IRequestHandler<CreateMessageCommand, Response>
+    public class CreateMessageHandler(IHubContext<MessageHub> _hubContext,GenericRepository<Message> repository,SocialMediaContext context) : IRequestHandler<CreateMessageCommand, Response>
     {
         public async Task<Response> Handle(CreateMessageCommand request, CancellationToken cancellationToken)
         {
@@ -61,6 +62,9 @@ namespace Whatsapp_Api.Application.Entities.Messages.Command
             }
 
             var response = await repository.Create(message);
+
+            await _hubContext.Clients.All.SendAsync("ReceiveMessage",message.ReceiverId,message);
+
 
             return new Response().Success(response);
 

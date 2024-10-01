@@ -23,10 +23,12 @@ namespace Whatsapp_Api.Infraestructure.Repository
                 .Where(p => p.ConversationId == ConversationId)
                 .Select(x => new
                 {
+                    id=x.Id,
                     senderId = x.SenderId,
                     receiverId = x.ReceiverId,
                     content = x.Content,
                     date = x.SendDate,
+                    image = x.Image,
                     read = x.Read
                 })
                 .OrderBy(x => x.date) // Ordenar por fecha en orden descendente

@@ -10,3 +10,4 @@ C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Core\obj\Debug\
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Core\obj\Debug\net8.0\refint\Whatsapp_Api.Core.dll
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Core\obj\Debug\net8.0\Whatsapp_Api.Core.pdb
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Core\obj\Debug\net8.0\ref\Whatsapp_Api.Core.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Core\obj\Debug\net8.0\Whatsapp_Api.Core.sourcelink.json

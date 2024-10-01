@@ -11,6 +11,8 @@ using Whatsapp_Api.Core.Models;
 
 using Microsoft.AspNetCore.Identity;
 using Whatsapp_Api.Infraestructure.Context;
+using Whatsapp_Api.Infraestructure;
+using Microsoft.AspNetCore.Builder;
 
 
 
@@ -42,10 +44,10 @@ namespace Whatsapp_Api
 
             services.AddAuthentication();
             services.AddAuthorization();
-
+            services.AddSignalR();
             services.AddAppContext(Configuration);
             services.AddApplicationServices();
-
+            services.AddScoped<MessageHub>();
 
             services.AddAuthentication(options =>
             {
@@ -93,6 +95,8 @@ namespace Whatsapp_Api
 
             app.UseAuthorization();
 
+            //app.MapHub<MessageHub>("/messageHub");
+
             // app.UseMiddleware<GlobalHandlerException>();
 
             app.UseSwagger();
@@ -101,7 +105,7 @@ namespace Whatsapp_Api
 
             app.UseCors(x => x.AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin());
 
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(endpoints => { endpoints.MapControllers(); endpoints.MapHub<MessageHub>("/messageHub"); });
 
         }
     }

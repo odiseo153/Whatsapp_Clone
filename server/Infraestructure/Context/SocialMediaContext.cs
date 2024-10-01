@@ -91,6 +91,9 @@ public partial class SocialMediaContext : DbContext
             entity.Property(e => e.Content);
             entity.Property(e => e.ConversationId);
             entity.Property(e => e.SenderId);
+            entity.Property(e => e.Image)
+            .HasColumnType("text");
+
             entity.Property(e => e.Read)
                 .HasDefaultValue(false);
             entity.Property(e => e.SendDate)

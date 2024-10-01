@@ -15,3 +15,4 @@ C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\refint\Whatsapp_Api.Application.dll
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.pdb
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\ref\Whatsapp_Api.Application.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Application\obj\Debug\net8.0\Whatsapp_Api.Application.sourcelink.json

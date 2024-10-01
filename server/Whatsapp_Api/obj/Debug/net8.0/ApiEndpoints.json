@@ -76,7 +76,7 @@
   {
     "ContainingType": "Whatsapp_Api.Presentation.WebApi.Controllers.MessageController",
     "Method": "Delete",
-    "RelativePath": "Message",
+    "RelativePath": "Message/{Id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -84,7 +84,7 @@
       {
         "Name": "Id",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

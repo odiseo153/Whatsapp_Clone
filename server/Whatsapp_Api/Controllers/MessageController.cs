@@ -1,7 +1,5 @@
 ﻿using Application.Entities.Generics.Command;
-using Application.Entities.Generics.Query;
 using Whatsapp_Api.Core.Models;
-
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Whatsapp_Api.Application.Entities.Messages.Command;
@@ -20,6 +18,7 @@ namespace Whatsapp_Api.Presentation.WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateMessageCommand message)
         {
+           // message.Image = "https://media.revistagq.com/photos/65cf47440b12924e35f93c92/16:9/w_1824,h_1026,c_limit/Screenshot%202024-02-15%20at%209.11.28%20PM.png";
             return Ok(await Mediator.Send(message));
         }
 
@@ -29,7 +28,7 @@ namespace Whatsapp_Api.Presentation.WebApi.Controllers
             return Ok(await Mediator.Send(new GetMessagesQuery(IdConversation)));
         }
 
-        [HttpDelete] 
+        [HttpDelete("{Id}")] 
         public IActionResult Delete(string Id)
         {
             return Ok(Mediator.Send(new DeleteEntityCommand<Message>(Id)));

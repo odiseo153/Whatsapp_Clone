@@ -15,3 +15,4 @@ C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.pdb
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.genruntimeconfig.cache
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\ref\Whatsapp_Api.Infraestructure.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Infraestructure\obj\Debug\net8.0\Whatsapp_Api.Infraestructure.sourcelink.json

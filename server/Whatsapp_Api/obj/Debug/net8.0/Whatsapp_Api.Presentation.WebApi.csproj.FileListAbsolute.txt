@@ -463,3 +463,7 @@ C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\ob
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\bin\Debug\net8.0\Seed\Data\Conversation.json
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\bin\Debug\net8.0\Seed\Data\Message.json
 C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\bin\Debug\net8.0\Seed\Data\User.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\obj\Debug\net8.0\Whatsapp_Api.Presentation.WebApi.sourcelink.json
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\Odiseo\Desktop\Todo\Full Stack Proyects\Whatsapp\server\Whatsapp_Api\obj\Debug\net8.0\Whatsapp_Api.Presentation.WebApi.MvcApplicationPartsAssemblyInfo.cs

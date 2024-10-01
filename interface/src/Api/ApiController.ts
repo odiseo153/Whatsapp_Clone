@@ -1,30 +1,7 @@
-import { redirect } from "react-router-dom";
 import { Url } from "../Url"
 import { Message } from "../Mensaje";
+import {message,User,Response, chat} from '../Interfaces/Inteface';
 
-interface Response {
-  isSuccess:boolean;
-    data:any;
-    statusCode:number;
-    message:string;
-}
-
-export interface chat {
-  name:string;
-  lastMessage:string;
-  id:string;
-  photo:string;
-  unread:number;
-}
-
-
-export interface message {
-  senderId:string;
-  receiverId:string;
-  content:string;
-  date:string;
-  read:boolean;
-}
 
 const getHeaders = (contentType = "application/json") => {
     const token = sessionStorage.getItem("token") || "";
@@ -103,7 +80,32 @@ export const Auth = async (phone: string) => {
     }
   };
   
+  export const GetUsuarios = async (): Promise<User[] | null> => {
+    try {
+      const id = sessionStorage.getItem("Id");
+  
+      // Verifica si el ID está presente antes de hacer la petición
+      if (!id) {
+        console.error("ID de sesión no encontrado.");
+        return null; // O puedes lanzar un error si prefieres
+      }
+  
+      const peticionUrl = `${Url}Usuario`;
+      const response = await fetch(peticionUrl, options('GET'));
+  
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status} ${response.statusText}`);
+      }
+  
+      const data: User[] = await response.json(); 
+  
+      return data;
 
+    } catch (error: any) {
+      console.error("Error en la obtención de la conversación:", error.message);
+      return null; // Devuelve `null` o maneja el error de otra manera
+    }
+  };
 
   export const GetMessages = async (ConversationId:string): Promise<message[] | null> => {
     try {
@@ -133,19 +135,50 @@ export const Auth = async (phone: string) => {
 
   export const SendMessage = async (message:any) => {
     try {
-
-  
       const peticionUrl = `${Url}Message`;
-    
       const response = await fetch(peticionUrl, options('POST',message));
-  
       if (!response.ok) {
         throw new Error(`Error: ${response.status} ${response.statusText}`);
       }
-  
-
     } catch (error: any) {
       console.error("Error en la obtención de la conversación:", error.message);
       return null; // Devuelve `null` o maneja el error de otra manera
     }
   };
+
+
+  export const EditMessage = async (message:message) => {
+    try {
+      const peticionUrl = `${Url}Message`;
+      const response = await fetch(peticionUrl, options('PUT',message));
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status} ${response.statusText}`);
+      }
+    } catch (error: any) {
+      console.error("Error en la obtención de la conversación:", error.message);
+      return null; // Devuelve `null` o maneja el error de otra manera
+    }
+  };
+
+
+  export const DeleteMessage = async (Id:string) => {
+    try { 
+      const peticionUrl = `${Url}Message/${Id}`;
+      const response = await fetch(peticionUrl, options('DELETE',{Id:Id}));
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status} ${response.statusText}`);
+      }
+    } catch (error: any) {
+      console.error("Error en la obtención de la conversación:", error.message);
+      return null; // Devuelve `null` o maneja el error de otra manera
+    }
+  };
+
+
+
+
+
+
+
+
+

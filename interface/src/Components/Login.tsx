@@ -3,7 +3,7 @@ import { Auth } from '../Api/ApiController';
 import { Loading } from './Loading';
 
 export default function Login() {
-    const [phone,setPhone] = useState("");
+    const [phone,setPhone] = useState("17323902310");
     const [isLoading, setIsLoading] = useState(false); // Estado para controlar la carga
 
     const sendPhone = async () =>{
@@ -52,9 +52,11 @@ export default function Login() {
           </button>
         </div>
       </div>
-      {isLoading && <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      {isLoading && 
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
         <Loading />
-      </div>}
+      </div>
+      }
     </div>
   );
 }

@@ -9,6 +9,7 @@
     "clean": "farm clean"
   },
   "dependencies": {
+    "@microsoft/signalr": "^8.0.7",
     "react": "18",
     "react-dom": "18",
     "react-router-dom": "^6.26.2",

@@ -13,7 +13,9 @@ export default function Login() {
     }
 
   return (
-    <div className="flex justify-center items-center min-h-screen relative">
+    <div className="flex justify-center items-center min-h-screen relative bg-cover bg-center"
+    style={{backgroundImage:`url('https://as2.ftcdn.net/v2/jpg/01/95/16/09/1000_F_195160951_D6cxHa3sV28MJLzknCraFcdqHs7TR3pU.jpg')`}}
+    >
       <div className="max-w-sm w-full rounded-lg shadow-lg bg-white p-6 space-y-6 border border-gray-200 dark:border-gray-700">
         <div className="space-y-2 text-center">
           <h1 className="text-3xl font-bold">Login</h1>
@@ -24,7 +26,7 @@ export default function Login() {
               className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               htmlFor="email"
             >
-              PhoneNumber
+              Phone
             </label>
             <input
               className="w-full h-10 rounded-md border border-input bg-background px-3 py-2 text-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
